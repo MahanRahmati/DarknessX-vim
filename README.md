@@ -1,4 +1,5 @@
 # DarknessX-vim
+![React pic](DarknessX.jpg)
 
 A dark neovim color scheme
 based on - snazzy (Based on [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy/) by [Sindre Sorhus](https://sindresorhus.com))
