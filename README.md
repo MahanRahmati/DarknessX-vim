@@ -24,4 +24,6 @@ use 'nvim-treesitter/nvim-treesitter'
 ## Configuring
 
 Add this to your `init.lua` file 
+```viml
 vim.cmd('colorscheme darknessX')
+```
