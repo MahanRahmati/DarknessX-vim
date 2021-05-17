@@ -16,7 +16,7 @@ This color scheme requires [treesitter](https://github.com/nvim-treesitter/nvim-
 
 With `Packer`
 
-```viml
+```lua
 use 'UltimateOmega/DarknessX-vim'
 use 'nvim-treesitter/nvim-treesitter'
 ```
@@ -24,6 +24,17 @@ use 'nvim-treesitter/nvim-treesitter'
 ## Configuring
 
 Add this to your `init.lua` file 
-```viml
+```lua
 vim.cmd('colorscheme darknessX')
+```
+##### Lualine
+
+To enable the [lualine](https://github.com/hoob3rt/lualine.nvim) theme:
+
+```lua
+require('lualine').setup {
+  options = {
+    theme = 'darknessX'
+  }
+}
 ```
